@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Hacen Saudi Arabia';
+    src: url('fonts/Hacen\ Saudi\ Arabia.ttf') format('truetype'); /* تأكد من استخدام المسار الصحيح */
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background: radial-gradient(circle, rgba(7,0,77,1) 0%, rgba(0,5,50,1) 100%);
+    background-attachment: fixed;
+}
+.arabic{
+    font-family: 'Hacen Saudi Arabia', sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+}
+.login-secion{
+    position: relative;
+    top: 30%;
+    color: white;
+    background-color: #000f21;
+    border-radius: 5px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.inputs-section{
+    /* display: flex; */
+    
+    width: 90%;
+}
+.login-head{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 40px ;
+}
+.input-head{
+    margin: 10px 0px 5px 0px;
+}
+.input-login{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    width: 100%;
+    height: 33px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.label1 {
+    color: red;
+    margin-left: 40px;
+}
+.link-text{
+    text-decoration: none;
+    color: white;
+}
+.entr-login-btn{
+    margin: 20px 0px;
+    background-color: #0510cb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.header{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    direction: rtl;
+    margin-top: 25px;
+}
+.welcome-name{
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.cat-section{
+    max-height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+.cat-section-btn{
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    height: 50px; 
+    width: 100%;
+    margin: 15px 20px;
+    background-color: #000913;
+}
+.subjects-section{
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 3in;
+}
+.subjects-section h6 {
+    font-weight: 100;
+    font-size: 50px;
+}
+.subjects{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.subject{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 250px;
+    margin: 20px 15px;
+}
+.subject-img{
+    width: 160px;
+    border-radius: 15px;
+}
+.entr-subject-btn{
+    width: 100%;
+    background-color:#0514cb ;
+    border-radius: 20px;
+}
